@@ -78,7 +78,7 @@ export default function Home() {
       </section>
 
       <footer className="bg-gray-900 text-white text-center py-6">
-        <p>© 2024 Tradeburg. All rights reserved.</p>
+        <p>© 2025 Tradeburg GmbH. All rights reserved.</p>
       </footer>
     </div>
   );
