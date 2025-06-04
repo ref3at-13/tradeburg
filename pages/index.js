@@ -1,3 +1,7 @@
+// Tradeburg Landing Page
+// Framework: Next.js with Tailwind CSS
+// Contact form sends email via Formspree to info@tradeburg.de
+
 import { useState } from "react";
 
 export default function Home() {
@@ -15,27 +19,33 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white text-gray-800">
-      <header className="bg-gray-100 shadow-sm p-4 flex justify-between items-center">
-        <img src="/logo.png" alt="Tradeburg Logo" className="h-10" />
-        <nav className="space-x-4 hidden md:block">
-          <a href="#about" className="hover:text-blue-600">About</a>
-          <a href="#services" className="hover:text-blue-600">Services</a>
-          <a href="#contact" className="hover:text-blue-600">Contact</a>
-        </nav>
+      {/* Header */}
+      <header className="bg-white shadow-sm">
+        <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+          <img src="/logo.png" alt="Tradeburg Logo" className="h-12" />
+          <nav className="space-x-4 hidden md:block">
+            <a href="#about" className="hover:text-blue-600">About</a>
+            <a href="#services" className="hover:text-blue-600">Services</a>
+            <a href="#contact" className="hover:text-blue-600">Contact</a>
+          </nav>
+        </div>
       </header>
 
+      {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white text-center py-20">
         <h1 className="text-4xl md:text-6xl font-bold">Your Business Partner between Europe and the Arab World</h1>
         <p className="text-xl mt-4">Connecting markets, cultures, and opportunities.</p>
         <a href="#contact" className="inline-block mt-6 px-6 py-3 bg-white text-blue-700 rounded hover:bg-gray-100">Get Started Today</a>
       </section>
 
+      {/* About */}
       <section id="about" className="py-20 px-6 max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold mb-6 text-center">About Tradeburg</h2>
         <p className="mb-4">Tradeburg is founded by partners from Germany and Egypt who have lived and worked across both regions, bringing unparalleled cultural understanding and business expertise.</p>
         <p>We aim to grow opportunities in both directions between Europe and the Arab world by building trusted partnerships and providing strategic market access.</p>
       </section>
 
+      {/* Services */}
       <section id="services" className="bg-gray-50 py-20 px-6 max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold mb-12 text-center">Our Services</h2>
         <div className="grid md:grid-cols-3 gap-8">
@@ -54,6 +64,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Contact */}
       <section id="contact" className="py-20 px-6 max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold mb-6 text-center">Get in Touch</h2>
         <form action="https://formspree.io/f/mldndgan" method="POST" className="space-y-4">
@@ -77,8 +88,9 @@ export default function Home() {
         </form>
       </section>
 
+      {/* Footer */}
       <footer className="bg-gray-900 text-white text-center py-6">
-        <p>© 2025 Tradeburg GmbH. All rights reserved.</p>
+        <p>© 2024 Tradeburg. All rights reserved.</p>
       </footer>
     </div>
   );
