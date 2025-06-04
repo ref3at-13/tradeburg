@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-// Triggered redeploy to fix 404 issue
+// Triggered redeploy to fix the 404 issue
 
 export default function Home() {
   const [formData, setFormData] = useState({
