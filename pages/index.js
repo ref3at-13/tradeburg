@@ -179,7 +179,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-10 px-6">
+      <footer className="bg-[#1755BF] text-white py-10 px-6">
         <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
             <img src="/Tradeburg Logo White Vertical.png" alt="Tradeburg Logo" className="h-20 mb-4 mx-auto md:mx-0" />
@@ -205,7 +205,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="mt-8 text-center text-sm text-gray-200 border-t border-gray-200 pt-4 w-full">
+        <div className="mt-8 text-center text-sm text-gray-200 border-t border-gray-200 pt-4 w-full mx-auto">
           © {new Date().getFullYear()} Tradeburg. All rights reserved.
         </div>
       </footer>
