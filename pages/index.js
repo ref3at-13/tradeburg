@@ -179,37 +179,43 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#1755BF] text-white py-10 px-6">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8 text-center md:text-left">
-          <div>
-            <img src="/Tradeburg Logo White Vertical.png" alt="Tradeburg Logo" className="h-20 mb-4 mx-auto md:mx-0" />
-            <p className="text-sm text-gray-200">
-              Bridging Europe and the Arab World through trusted partnerships and deep local expertise.
-            </p>
-          </div>
-          <div>
-            <h4 className="font-semibold mb-3 text-white">Quick Links</h4>
-            <ul className="space-y-2 text-sm text-gray-200">
-              <li><a href="#about" className="hover:underline">About</a></li>
-              <li><a href="#services" className="hover:underline">Services</a></li>
-              <li><a href="#locations" className="hover:underline">Locations</a></li>
-              <li><a href="#contact" className="hover:underline">Contact</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="font-semibold mb-3 text-white">Contact</h4>
-            <p className="text-sm text-gray-200">
-              info@tradeburg.de<br />
-              Krefeld, Germany<br />
-              Cairo, Egypt
-            </p>
-          </div>
-        </div>
-        <hr className="border-t border-white w-full my-8" />
-        <div className="text-center text-sm text-white">
-          © {new Date().getFullYear()} Tradeburg. All rights reserved.
-        </div>
-      </footer>
+<footer className="bg-[#1755BF] text-white pt-10">
+  <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8 text-center md:text-left">
+    <div>
+      <img src="/Tradeburg Logo White Vertical.png" alt="Tradeburg Logo" className="h-20 mb-4 mx-auto md:mx-0" />
+      <p className="text-sm text-gray-200">
+        Bridging Europe and the Arab World through trusted partnerships and deep local expertise.
+      </p>
+    </div>
+    <div>
+      <h4 className="font-semibold mb-3 text-white">Quick Links</h4>
+      <ul className="space-y-2 text-sm text-gray-200">
+        <li><a href="#about" className="hover:underline">About</a></li>
+        <li><a href="#services" className="hover:underline">Services</a></li>
+        <li><a href="#locations" className="hover:underline">Locations</a></li>
+        <li><a href="#contact" className="hover:underline">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 className="font-semibold mb-3 text-white">Contact</h4>
+      <p className="text-sm text-gray-200">
+        info@tradeburg.de<br />
+        Krefeld, Germany<br />
+        Cairo, Egypt
+      </p>
+    </div>
+  </div>
+
+  {/* Full-width line */}
+  <div className="mt-8">
+    <hr className="border-t border-white w-full" />
+  </div>
+
+  {/* Copyright */}
+  <div className="text-center text-sm text-white py-6">
+    © {new Date().getFullYear()} Tradeburg. All rights reserved.
+  </div>
+</footer>
     </div>
   );
 }
