@@ -74,7 +74,7 @@ export default function Home() {
 
           <div className="p-6 text-center border rounded-lg shadow-sm bg-white md:col-span-3 flex flex-col justify-start h-full self-end">
             <div className="flex justify-center mb-4">
-              <img src="/Partnership.png" alt="Trusted Partnerships" className="h-10 w-10 mx-auto" />
+              <img src="/Culture.png" alt="Cross-Cultural Expertise" className="h-14 w-14 mx-auto" />
             </div>
             <h4 className="font-semibold mb-1">Cross-Cultural Expertise</h4>
             <p className="text-sm text-gray-600">Deep understanding of European and Arab markets</p>
@@ -82,7 +82,7 @@ export default function Home() {
 
           <div className="p-6 text-center border rounded-lg shadow-sm bg-white md:col-span-3 flex flex-col justify-start h-full">
             <div className="flex justify-center mb-4">
-              <img src="/Culture.png" alt="Cross-Cultural Expertise" className="h-10 w-10 mx-auto" />
+              <img src="/Partnership.png" alt="Trusted Partnerships" className="h-14 w-14 mx-auto" />
             </div>
             <h4 className="font-semibold mb-1">Trusted Partnerships</h4>
             <p className="text-sm text-gray-600">Building lasting business relationships</p>
