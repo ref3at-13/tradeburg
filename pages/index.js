@@ -61,8 +61,8 @@ export default function Home() {
           bringing unparalleled cultural understanding and business expertise.
         </p>
 
-        <div className="grid md:grid-cols-12 gap-6 items-start md:h-full">
-          <div className="md:col-span-6 flex flex-col justify-start">
+        <div className="grid md:grid-cols-12 gap-6 md:items-start md:h-full">
+          <div className="md:col-span-6 flex flex-col justify-between h-full">
   <div className="mb-4">
     <h3 className="text-2xl font-semibold text-left">Our Mission</h3>
   </div>
@@ -74,7 +74,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="p-6 text-center border rounded-lg shadow-sm bg-white md:col-span-3 flex flex-col justify-start h-full">
+          <div className="p-6 text-center border rounded-lg shadow-sm bg-white md:col-span-3 flex flex-col justify-start h-full self-end">
             <div className="flex justify-center mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12.79A9 9 0 1111.21 3h0A9 9 0 0121 12.79z" />
