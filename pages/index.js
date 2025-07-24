@@ -62,9 +62,8 @@ export default function Home() {
         </p>
 
         <div className="grid md:grid-cols-12 gap-6 items-start md:h-full">
-          <div className="md:col-span-6">
-            <h3 className="text-2xl font-semibold mb-4 text-left">Our Mission</h3>
-            <p className="text-gray-700 mb-4 text-left">
+          <div className="md:col-span-6 flex flex-col justify-start">
+<p className="text-gray-700 mb-4 text-left">
               Our main goal is to find and grow business opportunities in both directions between Europe and the Arab world. We leverage our deep understanding of both cultures and business environments to create meaningful, lasting partnerships.
             </p>
             <p className="text-gray-700 text-left">
