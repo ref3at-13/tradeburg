@@ -61,16 +61,37 @@ export default function Home() {
           bringing unparalleled cultural understanding and business expertise.
         </p>
 
-        <div className="grid md:grid-cols-3 gap-6 items-start">
-          <div>
-            <h3 className="text-2xl font-semibold mb-4 text-left">Our Mission</h3>
-            <p className="text-gray-700 mb-4 text-left">
-              Our main goal is to find and grow business opportunities in both directions between Europe and the Arab world. We leverage our deep understanding of both cultures and business environments to create meaningful, lasting partnerships.
-            </p>
-            <p className="text-gray-700 text-left">
-              Through our work, we hope to contribute to promoting better understanding, respect, and harmony between these dynamic regions, while driving economic growth and innovation.
-            </p>
-          </div>
+        <div className="grid md:grid-cols-6 gap-6 items-start">
+  <div className="md:col-span-3">
+    <h3 className="text-2xl font-semibold mb-4 text-left">Our Mission</h3>
+    <p className="text-gray-700 mb-4 text-left">
+      Our main goal is to find and grow business opportunities in both directions between Europe and the Arab world. We leverage our deep understanding of both cultures and business environments to create meaningful, lasting partnerships.
+    </p>
+    <p className="text-gray-700 text-left">
+      Through our work, we hope to contribute to promoting better understanding, respect, and harmony between these dynamic regions, while driving economic growth and innovation.
+    </p>
+  </div>
+
+  <div className="p-6 text-center border rounded-lg shadow-sm bg-white md:col-span-1">
+    <div className="flex justify-center mb-4">
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12.79A9 9 0 1111.21 3h0A9 9 0 0121 12.79z" />
+      </svg>
+    </div>
+    <h4 className="font-semibold mb-1">Cross-Cultural Expertise</h4>
+    <p className="text-sm text-gray-600">Deep understanding of European and Arab markets</p>
+  </div>
+
+  <div className="p-6 text-center border rounded-lg shadow-sm bg-white md:col-span-1">
+    <div className="flex justify-center mb-4">
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 11c0-1.657-1.343-3-3-3S6 9.343 6 11s1.343 3 3 3 3-1.343 3-3zM6 19c0-1.657 3.582-2.5 6-2.5s6 .843 6 2.5v1H6v-1z" />
+      </svg>
+    </div>
+    <h4 className="font-semibold mb-1">Trusted Partnerships</h4>
+    <p className="text-sm text-gray-600">Building lasting business relationships</p>
+  </div>
+</div>
 
           <div className="p-6 text-center border rounded-lg shadow-sm bg-white">
             <div className="flex justify-center mb-4">
