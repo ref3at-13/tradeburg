@@ -62,9 +62,9 @@ export default function Home() {
         </p>
 
         <h3 className="text-2xl font-semibold mb-6 text-left">Our Mission</h3>
-<div className="grid md:grid-cols-12 gap-6 md:items-start md:h-full">
+        <div className="grid md:grid-cols-12 gap-6 md:items-start md:h-full">
           <div className="md:col-span-6 flex flex-col justify-between h-full">
-  <p className="text-gray-700 mb-4 text-left">
+            <p className="text-gray-700 mb-4 text-left">
               Our main goal is to find and grow business opportunities in both directions between Europe and the Arab world. We leverage our deep understanding of both cultures and business environments to create meaningful, lasting partnerships.
             </p>
             <p className="text-gray-700 text-left">
@@ -72,17 +72,17 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="p-6 text-center border rounded-lg shadow-sm bg-white md:col-span-3 flex flex-col justify-start h-full self-end">
-            <div className="flex justify-center mb-4">
-              <img src="/Culture.png" alt="Cross-Cultural Expertise" className="h-14 w-14 mx-auto" />
+          <div className="p-6 text-left border rounded-lg shadow-sm bg-white md:col-span-3 flex flex-col justify-start h-full">
+            <div className="mb-4">
+              <img src="/Partnership.png" alt="Cross-Cultural Expertise" className="h-14 w-14" />
             </div>
             <h4 className="font-semibold mb-1">Cross-Cultural Expertise</h4>
             <p className="text-sm text-gray-600">Deep understanding of European and Arab markets</p>
           </div>
 
-          <div className="p-6 text-center border rounded-lg shadow-sm bg-white md:col-span-3 flex flex-col justify-start h-full">
-            <div className="flex justify-center mb-4">
-              <img src="/Partnership.png" alt="Trusted Partnerships" className="h-14 w-14 mx-auto" />
+          <div className="p-6 text-left border rounded-lg shadow-sm bg-white md:col-span-3 flex flex-col justify-start h-full">
+            <div className="mb-4">
+              <img src="/Culture.png" alt="Trusted Partnerships" className="h-14 w-14" />
             </div>
             <h4 className="font-semibold mb-1">Trusted Partnerships</h4>
             <p className="text-sm text-gray-600">Building lasting business relationships</p>
@@ -93,27 +93,27 @@ export default function Home() {
       {/* Services */}
       <section id="services" className="bg-gray-50 py-20 px-6 w-full">
         <h2 className="text-4xl font-bold mb-4 text-center">Our Services</h2>
-<p className="text-center text-lg mb-12">Comprehensive solutions for international trade and business expansion.</p>
+        <p className="text-center text-lg mb-12">Comprehensive solutions for international trade and business expansion.</p>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="p-6 bg-white rounded shadow">
             <div className="flex justify-start mb-4">
-  <img src="/Market.png" alt="Market Analysis & Entry" className="h-14 w-14" />
-</div>
-<h3 className="text-2xl font-semibold mb-2">Market Analysis & Entry</h3>
+              <img src="/Market.png" alt="Market Analysis & Entry" className="h-14 w-14" />
+            </div>
+            <h3 className="text-2xl font-semibold mb-2">Market Analysis & Entry</h3>
             <p>Strategic market research and entry planning for successful expansion into new territories.</p>
           </div>
           <div className="p-6 bg-white rounded shadow">
             <div className="flex justify-start mb-4">
-  <img src="/Setup.png" alt="Business Setup" className="h-14 w-14" />
-</div>
-<h3 className="text-2xl font-semibold mb-2">Business Setup</h3>
+              <img src="/Setup.png" alt="Business Setup" className="h-14 w-14" />
+            </div>
+            <h3 className="text-2xl font-semibold mb-2">Business Setup</h3>
             <p>Support with company incorporation, understanding legal requirements, and local regulations.</p>
           </div>
           <div className="p-6 bg-white rounded shadow">
             <div className="flex justify-start mb-4">
-  <img src="/PartnershipDev.png" alt="Partnership Development" className="h-14 w-14" />
-</div>
-<h3 className="text-2xl font-semibold mb-2">Partnership Development</h3>
+              <img src="/PartnershipDev.png" alt="Partnership Development" className="h-14 w-14" />
+            </div>
+            <h3 className="text-2xl font-semibold mb-2">Partnership Development</h3>
             <p>Finding and developing relationships with agents, distributors, and strategic partners.</p>
           </div>
         </div>
@@ -154,9 +154,10 @@ export default function Home() {
       </section>
 
       {/* Contact */}
-      
-<p className="text-center text-lg mb-12">Ready to explore new opportunities? Let's start the conversation.</p>
-        <form action="https://formspree.io/f/mldndgan" method="POST" className="space-y-4">
+      <section id="contact" className="bg-gray-50 py-20 px-6 w-full">
+        <h2 className="text-4xl font-bold mb-6 text-center">Get in Touch</h2>
+        <p className="text-center text-lg mb-12">Ready to explore new opportunities? Let's start the conversation.</p>
+        <form action="https://formspree.io/f/mldndgan" method="POST" className="space-y-4 max-w-2xl mx-auto">
           <div>
             <label htmlFor="name" className="block mb-1 font-medium">Name *</label>
             <input type="text" id="name" name="name" required className="w-full border border-gray-300 p-2 rounded" onChange={handleChange} />
