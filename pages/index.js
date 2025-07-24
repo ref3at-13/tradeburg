@@ -91,20 +91,30 @@ export default function Home() {
       </section>
 
       {/* Services */}
-      <section id="services" className="bg-gray-50 py-20 px-6 max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12 text-center">Our Services</h2>
+      <section id="services" className="bg-gray-50 py-20 px-6 w-full">
+        <h2 className="text-4xl font-bold mb-4 text-center">Our Services</h2>
+<p className="text-center text-lg mb-12">Comprehensive solutions for international trade and business expansion.</p>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="p-6 bg-white rounded shadow">
-            <h3 className="text-xl font-semibold mb-2">Market Analysis & Entry</h3>
-            <p>We provide strategic research and entry planning for expansion into new territories.</p>
+            <div className="flex justify-center mb-4">
+  <img src="/Market.png" alt="Market Analysis & Entry" className="h-14 w-14" />
+</div>
+<h3 className="text-2xl font-semibold mb-2">Market Analysis & Entry</h3>
+            <p>Strategic market research and entry planning for successful expansion into new territories.</p>
           </div>
           <div className="p-6 bg-white rounded shadow">
-            <h3 className="text-xl font-semibold mb-2">Business Setup</h3>
-            <p>Support with incorporation, legal requirements, and local regulations.</p>
+            <div className="flex justify-center mb-4">
+  <img src="/Setup.png" alt="Business Setup" className="h-14 w-14" />
+</div>
+<h3 className="text-2xl font-semibold mb-2">Business Setup</h3>
+            <p>Support with company incorporation, understanding legal requirements, and local regulations.</p>
           </div>
           <div className="p-6 bg-white rounded shadow">
-            <h3 className="text-xl font-semibold mb-2">Partnership Development</h3>
-            <p>Connecting you with agents, distributors, and partners in Europe and the Arab world.</p>
+            <div className="flex justify-center mb-4">
+  <img src="/PartnershipDev.png" alt="Partnership Development" className="h-14 w-14" />
+</div>
+<h3 className="text-2xl font-semibold mb-2">Partnership Development</h3>
+            <p>Finding and developing relationships with agents, distributors, and strategic partners.</p>
           </div>
         </div>
       </section>
