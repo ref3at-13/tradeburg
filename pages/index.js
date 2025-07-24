@@ -205,7 +205,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="mt-8 text-center text-sm text-gray-200 border-t border-gray-200 pt-4 w-full mx-auto">
+        <div className="mt-8 text-center text-sm text-gray-200 border-t border-gray-200 pt-4 w-full border-t-[1px] border-white">
           © {new Date().getFullYear()} Tradeburg. All rights reserved.
         </div>
       </footer>
