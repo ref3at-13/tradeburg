@@ -33,9 +33,22 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white text-center py-20">
-        <h1 className="text-4xl md:text-6xl font-bold">Your Business Partner between Europe and the Arab World</h1>
-        <p className="text-xl mt-4">Connecting markets, cultures, and opportunities.</p>
-        <a href="#contact" className="inline-block mt-6 px-6 py-3 bg-white text-blue-700 rounded hover:bg-gray-100">Get Started Today</a>
+        <div className="max-w-7xl mx-auto px-4">
+          <h1 className="text-4xl md:text-6xl font-bold text-left md:text-center">
+            Your Business Partner between Europe and the Arab World
+          </h1>
+          <p className="text-xl mt-4 md:text-center text-left">
+            Connecting markets, cultures, and opportunities.
+          </p>
+          <div className="mt-6 md:text-center text-left">
+            <a
+              href="#contact"
+              className="inline-block px-6 py-3 bg-white text-blue-700 rounded hover:bg-gray-100"
+            >
+              Get Started Today
+            </a>
+          </div>
+        </div>
       </section>
 
       {/* About */}
