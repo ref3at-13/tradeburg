@@ -128,7 +128,7 @@ export default function Home() {
       </section>
 
       {/* Contact */}
-      <section id="contact" className="py-20 px-6 max-w-4xl mx-auto">
+      <section id="contact" className="bg-gray-50 py-20 px-6 max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold mb-6 text-center">Get in Touch</h2>
         <form action="https://formspree.io/f/mldndgan" method="POST" className="space-y-4">
           <div>
