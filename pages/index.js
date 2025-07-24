@@ -61,17 +61,17 @@ export default function Home() {
           bringing unparalleled cultural understanding and business expertise.
         </p>
 
-        <div className="mb-12">
-          <h3 className="text-2xl font-semibold mb-4 text-left">Our Mission</h3>
-          <p className="text-gray-700 mb-4 text-left">
-            Our main goal is to find and grow business opportunities in both directions between Europe and the Arab world. We leverage our deep understanding of both cultures and business environments to create meaningful, lasting partnerships.
-          </p>
-          <p className="text-gray-700 text-left">
-            Through our work, we hope to contribute to promoting better understanding, respect, and harmony between these dynamic regions, while driving economic growth and innovation.
-          </p>
-        </div>
+        <div className="grid md:grid-cols-3 gap-6 items-start">
+          <div>
+            <h3 className="text-2xl font-semibold mb-4 text-left">Our Mission</h3>
+            <p className="text-gray-700 mb-4 text-left">
+              Our main goal is to find and grow business opportunities in both directions between Europe and the Arab world. We leverage our deep understanding of both cultures and business environments to create meaningful, lasting partnerships.
+            </p>
+            <p className="text-gray-700 text-left">
+              Through our work, we hope to contribute to promoting better understanding, respect, and harmony between these dynamic regions, while driving economic growth and innovation.
+            </p>
+          </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
           <div className="p-6 text-center border rounded-lg shadow-sm bg-white">
             <div className="flex justify-center mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -81,6 +81,7 @@ export default function Home() {
             <h4 className="font-semibold mb-1">Cross-Cultural Expertise</h4>
             <p className="text-sm text-gray-600">Deep understanding of European and Arab markets</p>
           </div>
+
           <div className="p-6 text-center border rounded-lg shadow-sm bg-white">
             <div className="flex justify-center mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
