@@ -120,11 +120,14 @@ export default function Home() {
       </section>
 
       {/* Locations */}
-      <section id="locations" className="py-20 px-6 max-w-6xl mx-auto">
-      <h2 className="text-4xl font-bold mb-6 text-center">Our Locations</h2>
-      <p className="text-center text-lg">
-      Strategic presence in key markets for maximum impact.
-      </p>
+      
+<div className="mt-10 flex justify-center">
+  <img
+    src="/Map.png"
+    alt="Map showing Germany and Egypt"
+    className="w-full max-w-4xl rounded shadow-md"
+  />
+</div>
       </section>
 
       {/* Contact */}
