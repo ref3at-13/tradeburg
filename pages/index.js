@@ -55,14 +55,16 @@ export default function Home() {
 
       {/* About */}
       <section id="about" className="py-20 px-6 max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold mb-6 text-center">About Tradeburg</h2>
-        <p className="mb-4">Tradeburg is founded by partners from Germany and Egypt who have lived and worked across both regions, bringing unparalleled cultural understanding and business expertise.</p>
-        <p>We aim to grow opportunities in both directions between Europe and the Arab world by building trusted partnerships and providing strategic market access.</p>
+        <h2 className="text-4xl font-bold mb-6 text-center">About Tradeburg</h2>
+        <p className="text-center text-lg">
+          Founded by partners from Germany and Egypt who have lived and worked across both regions,<br />
+          bringing unparalleled cultural understanding and business expertise.
+        </p>
       </section>
 
       {/* Services */}
       <section id="services" className="bg-gray-50 py-20 px-6 max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold mb-12 text-center">Our Services</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center">Our Services</h2>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="p-6 bg-white rounded shadow">
             <h3 className="text-xl font-semibold mb-2">Market Analysis & Entry</h3>
@@ -81,7 +83,7 @@ export default function Home() {
 
       {/* Contact */}
       <section id="contact" className="py-20 px-6 max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold mb-6 text-center">Get in Touch</h2>
+        <h2 className="text-4xl font-bold mb-6 text-center">Get in Touch</h2>
         <form action="https://formspree.io/f/mldndgan" method="POST" className="space-y-4">
           <div>
             <label htmlFor="name" className="block mb-1 font-medium">Name *</label>
