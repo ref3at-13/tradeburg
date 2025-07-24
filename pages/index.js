@@ -35,10 +35,11 @@ export default function Home() {
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white text-center py-20">
         <div className="max-w-7xl mx-auto px-4">
           <h1 className="text-4xl md:text-6xl font-bold text-left md:text-center">
-            Your Business Partner between Europe and the Arab World
+            Your Business Partner<br />
+            across Europe and the Arab World
           </h1>
           <p className="text-xl mt-4 md:text-center text-left">
-            Connecting markets, cultures, and opportunities.
+            Connecting markets, cultures, and opportunities across continents with deep local expertise and trusted partnerships.
           </p>
           <div className="mt-6 md:text-center text-left">
             <a
