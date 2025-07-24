@@ -39,7 +39,8 @@ export default function Home() {
             across Europe and the Arab World
           </h1>
           <p className="text-xl mt-4 md:text-center text-left">
-            Connecting markets, cultures, and opportunities across continents with deep local expertise and trusted partnerships.
+            Connecting markets, cultures, and opportunities across continents<br />
+            with deep local expertise and trusted partnerships.
           </p>
           <div className="mt-6 md:text-center text-left">
             <a
