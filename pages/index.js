@@ -182,7 +182,7 @@ export default function Home() {
       <footer className="bg-gray-900 text-white py-10 px-6">
         <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
-            <img src="/Tradeburg Logo White Vertical.png" alt="Tradeburg Logo" className="h-10 mb-4 mx-auto md:mx-0" />
+            <img src="/Tradeburg Logo White Vertical.png" alt="Tradeburg Logo" className="h-20 mb-4 mx-auto md:mx-0" />
             <p className="text-sm text-gray-400">
               Bridging Europe and the Arab World through trusted partnerships and deep local expertise.
             </p>
