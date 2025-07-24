@@ -74,9 +74,7 @@ export default function Home() {
 
           <div className="p-6 text-center border rounded-lg shadow-sm bg-white md:col-span-3 flex flex-col justify-start h-full self-end">
             <div className="flex justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12.79A9 9 0 1111.21 3h0A9 9 0 0121 12.79z" />
-              </svg>
+              <img src="/Partnership.png" alt="Trusted Partnerships" className="h-10 w-10 mx-auto" />
             </div>
             <h4 className="font-semibold mb-1">Cross-Cultural Expertise</h4>
             <p className="text-sm text-gray-600">Deep understanding of European and Arab markets</p>
@@ -84,9 +82,7 @@ export default function Home() {
 
           <div className="p-6 text-center border rounded-lg shadow-sm bg-white md:col-span-3 flex flex-col justify-start h-full">
             <div className="flex justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 11c0-1.657-1.343-3-3-3S6 9.343 6 11s1.343 3 3 3 3-1.343 3-3zM6 19c0-1.657 3.582-2.5 6-2.5s6 .843 6 2.5v1H6v-1z" />
-              </svg>
+              <img src="/Culture.png" alt="Cross-Cultural Expertise" className="h-10 w-10 mx-auto" />
             </div>
             <h4 className="font-semibold mb-1">Trusted Partnerships</h4>
             <p className="text-sm text-gray-600">Building lasting business relationships</p>
