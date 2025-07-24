@@ -154,8 +154,8 @@ export default function Home() {
       </section>
 
       {/* Contact */}
-      <section id="contact" className="bg-gray-50 py-20 px-6 w-full">
-        <h2 className="text-4xl font-bold mb-6 text-center">Get in Touch</h2>
+      
+<p className="text-center text-lg mb-12">Ready to explore new opportunities? Let's start the conversation.</p>
         <form action="https://formspree.io/f/mldndgan" method="POST" className="space-y-4">
           <div>
             <label htmlFor="name" className="block mb-1 font-medium">Name *</label>
