@@ -120,19 +120,36 @@ export default function Home() {
       </section>
 
       {/* Locations */}
-<section id="locations" className="py-20 px-6 max-w-6xl mx-auto">
-  <h2 className="text-4xl font-bold mb-6 text-center">Our Locations</h2>
-  <p className="text-center text-lg">
-    Strategic presence in key markets for maximum impact.
-  </p>
-  <div className="mt-10 flex justify-center">
-    <img
-      src="/Map.png"
-      alt="Map showing Germany and Egypt"
-      className="w-full max-w-4xl rounded shadow-md"
-    />
-  </div>
-</section>
+      <section id="locations" className="py-20 px-6 max-w-6xl mx-auto">
+        <h2 className="text-4xl font-bold mb-6 text-center">Our Locations</h2>
+        <p className="text-center text-lg mb-12">
+          Strategic presence in key markets for maximum impact.
+        </p>
+        <div className="grid md:grid-cols-2 gap-8">
+          <div className="p-6 border rounded-lg shadow-sm bg-white">
+            <div className="flex items-center mb-4">
+              <img src="/location-icon.png" alt="Location Icon" className="h-6 w-6 mr-2" />
+              <h3 className="text-xl font-semibold">Germany Headquarters</h3>
+            </div>
+            <p><strong>HQ:</strong> 47803 Krefeld, Germany</p>
+            <p><strong>Office:</strong> Bötzinger Str. 46, 79111 Freiburg im Breisgau (Office Plus Building)</p>
+            <p className="mt-2 text-gray-600">
+              Our European hub provides direct access to EU markets and regulatory expertise, enabling seamless business operations across Europe.
+            </p>
+          </div>
+          <div className="p-6 border rounded-lg shadow-sm bg-white">
+            <div className="flex items-center mb-4">
+              <img src="/location-icon.png" alt="Location Icon" className="h-6 w-6 mr-2" />
+              <h3 className="text-xl font-semibold">Egypt Office</h3>
+            </div>
+            <p><strong>Address:</strong> 30 Zahir Baybars St., Behind Degla View Building</p>
+            <p>Ring Road, Maadi, Cairo, Postal Code: 11571</p>
+            <p className="mt-2 text-gray-600">
+              Our Middle East presence offers deep regional insights and established networks throughout the Arab world.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Contact */}
       <section id="contact" className="bg-gray-50 py-20 px-6 w-full">
