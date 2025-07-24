@@ -179,17 +179,17 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#1755BF] text-white py-10 px-6">
+      <footer className="bg-[#1952BC] text-white py-10 px-6">
         <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
             <img src="/Tradeburg Logo White Vertical.png" alt="Tradeburg Logo" className="h-20 mb-4 mx-auto md:mx-0" />
-            <p className="text-sm text-gray-400">
+            <p className="text-sm text-gray-200">
               Bridging Europe and the Arab World through trusted partnerships and deep local expertise.
             </p>
           </div>
           <div>
             <h4 className="font-semibold mb-3 text-white">Quick Links</h4>
-            <ul className="space-y-2 text-sm text-gray-300">
+            <ul className="space-y-2 text-sm text-gray-200">
               <li><a href="#about" className="hover:underline">About</a></li>
               <li><a href="#services" className="hover:underline">Services</a></li>
               <li><a href="#locations" className="hover:underline">Locations</a></li>
@@ -198,14 +198,15 @@ export default function Home() {
           </div>
           <div>
             <h4 className="font-semibold mb-3 text-white">Contact</h4>
-            <p className="text-sm text-gray-300">
+            <p className="text-sm text-gray-200">
               info@tradeburg.de<br />
               Krefeld, Germany<br />
               Cairo, Egypt
             </p>
           </div>
         </div>
-        <div className="mt-8 text-center text-sm text-gray-200 border-t border-gray-200 pt-4 w-full border-t-[1px] border-white">
+        <hr className="border-t border-white my-8" />
+        <div className="text-center text-sm text-white">
           © {new Date().getFullYear()} Tradeburg. All rights reserved.
         </div>
       </footer>
