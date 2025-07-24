@@ -82,7 +82,7 @@ export default function Home() {
             <p className="text-sm text-gray-600">Deep understanding of European and Arab markets</p>
           </div>
 
-          <div className="p-6 text-center border rounded-lg shadow-sm bg-white md:col-span-3">
+          <div className="p-6 text-center border rounded-lg shadow-sm bg-white md:col-span-3 flex flex-col justify-start h-full">
             <div className="flex justify-center mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 11c0-1.657-1.343-3-3-3S6 9.343 6 11s1.343 3 3 3 3-1.343 3-3zM6 19c0-1.657 3.582-2.5 6-2.5s6 .843 6 2.5v1H6v-1z" />
