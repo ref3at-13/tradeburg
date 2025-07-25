@@ -100,13 +100,3 @@ export default function Home() {
     </div>
   );
 }
-
-// Empty Impressum page
-export function Impressum() {
-  return <div className="min-h-screen p-10">Impressum page placeholder</div>;
-}
-
-// Empty Privacy Policy page
-export function Privacy() {
-  return <div className="min-h-screen p-10">Privacy Policy page placeholder</div>;
-}
