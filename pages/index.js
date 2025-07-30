@@ -185,8 +185,6 @@ export default function Home() {
               <li><a href="#services" className="hover:underline">Services</a></li>
               <li><a href="#locations" className="hover:underline">Locations</a></li>
               <li><a href="#contact" className="hover:underline">Contact</a></li>
-              <li><a href="/impressum" className="hover:underline">Impressum</a></li>
-              <li><a href="/privacy" className="hover:underline">Privacy Policy</a></li>
             </ul>
           </div>
           <div>
@@ -198,7 +196,12 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="text-center text-sm text-white mt-8">
+        <div className="text-center text-sm text-white mt-8 space-x-2">
+          <a href="/impressum" className="hover:underline">Impressum</a>
+          <span>|</span>
+          <a href="/privacy" className="hover:underline">Privacy Policy</a>
+        </div>
+        <div className="text-center text-sm text-white mt-2">
           © {new Date().getFullYear()} Tradeburg. All rights reserved.
         </div>
       </footer>
