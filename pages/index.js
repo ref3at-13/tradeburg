@@ -15,7 +15,7 @@ export default function Home() {
     <div className="min-h-screen bg-white text-gray-800">
       {/* Header */}
       <header className="bg-white shadow-lg sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-12 py-4 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-12 py-6 flex justify-between items-center">
           <img src="/logo.png" alt="Tradeburg Logo" className="h-10" />
           <nav className="space-x-4 hidden md:block">
             <a href="#about" className="hover:text-blue-600">About</a>
