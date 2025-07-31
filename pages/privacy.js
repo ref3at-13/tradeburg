@@ -43,40 +43,44 @@ export default function Privacy() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-[#1755BF] text-white py-10 px-12 mt-12">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8 text-center md:text-left">
+      <footer className="bg-[#1755BF] text-white py-10 px-12">
+        <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8 text-center md:text-left">
           <div>
-            <img src="/Tradeburg Logo White Vertical.png" alt="Tradeburg Logo" className="h-20 mb-4 mx-auto md:mx-0" />
+            <img src="/Tradeburg Logo White Vertical.png" alt="Tradeburg Logo" className="h-16 mb-4 mx-auto md:mx-0" />
             <p className="text-sm text-gray-200">
-              Bridging Europe and the Arab World<br />
-              through trusted partnerships and deep local expertise.
+              Bridging Europe & the Arab World<br />
+              One Business Partnership at a Time
             </p>
           </div>
           <div>
             <h4 className="font-semibold mb-3 text-white">Quick Links</h4>
             <ul className="space-y-2 text-sm text-gray-200">
-              <li><a href="/#about" className="hover:underline">About</a></li>
-              <li><a href="/#services" className="hover:underline">Services</a></li>
-              <li><a href="/#locations" className="hover:underline">Locations</a></li>
-              <li><a href="/#contact" className="hover:underline">Contact</a></li>
+              <li><a href="#about" className="hover:underline">About</a></li>
+              <li><a href="#services" className="hover:underline">Services</a></li>
+              <li><a href="#locations" className="hover:underline">Locations</a></li>
+              <li><a href="#contact" className="hover:underline">Contact</a></li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold mb-3 text-white">Contact</h4>
             <p className="text-sm text-gray-200">
-              info@tradeburg.de<br />
-              Krefeld, Germany<br />
-              Cairo, Egypt
+              Germany: Bötzinger Str. 46<br />
+              (OfficePlus Building)<br />
+              79111 Freiburg
             </p>
+            <p className="mt-4 text-sm text-gray-200">Egypt: Maadi, Cairo</p>
+            <p className="mt-4 text-sm text-gray-200">Email: info@tradeburg.de</p>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-3 text-white">Legal</h4>
+            <ul className="space-y-2 text-sm text-gray-200">
+              <li><a href="/impressum" className="hover:underline">Impressum</a></li>
+              <li><a href="/privacy" className="hover:underline">Privacy Policy</a></li>
+            </ul>
           </div>
         </div>
-        <div className="text-center text-sm text-white mt-8 space-x-2">
-          <a href="/impressum" className="hover:underline">Impressum</a>
-          <span>|</span>
-          <a href="/privacy" className="hover:underline">Privacy Policy</a>
-        </div>
-        <div className="text-center text-sm text-white mt-2">
-          © {new Date().getFullYear()} Tradeburg. All rights reserved.
+        <div className="text-center text-sm text-white mt-8">
+          © 2025 Tradeburg. All rights reserved.
         </div>
       </footer>
     </div>
