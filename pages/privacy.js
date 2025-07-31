@@ -4,7 +4,9 @@ export default function Privacy() {
       {/* Header */}
       <header className="bg-white shadow-lg sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-12 py-6 flex justify-between items-center">
-          <img src="/logo.png" alt="Tradeburg Logo" className="h-10" />
+          <a href="/">
+            <img src="/logo.png" alt="Tradeburg Logo" className="h-10" />
+          </a>
           <nav className="space-x-4 hidden md:block">
             <a href="/" className="hover:text-blue-600">Home</a>
             <a href="/impressum" className="hover:text-blue-600">Impressum</a>
@@ -13,7 +15,7 @@ export default function Privacy() {
         </div>
       </header>
 
-      <div className="max-w-4xl mx-auto p-8">
+      <main className="max-w-4xl mx-auto p-8">
         <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
         <p>We at <strong>Tradeburg GmbH</strong> take the protection of your personal data seriously and comply with the General Data Protection Regulation (GDPR).</p>
 
@@ -37,7 +39,7 @@ export default function Privacy() {
 
         <h2 className="text-2xl font-semibold mt-6 mb-2">7. Contact</h2>
         <p>If you have any questions about this Privacy Policy or the processing of your personal data, please contact us at info@tradeburg.de.</p>
-      </div>
+      </main>
 
       {/* Footer */}
       <footer className="bg-[#1755BF] text-white py-10 px-12 mt-12">
