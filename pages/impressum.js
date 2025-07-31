@@ -4,7 +4,9 @@ export default function Impressum() {
       {/* Header */}
       <header className="bg-white shadow-lg sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-12 py-6 flex justify-between items-center">
-          <img src="/logo.png" alt="Tradeburg Logo" className="h-10" />
+          <a href="/">
+            <img src="/logo.png" alt="Tradeburg Logo" className="h-10" />
+          </a>
           <nav className="space-x-4 hidden md:block">
             <a href="/" className="hover:text-blue-600">Home</a>
             <a href="/impressum" className="hover:text-blue-600">Impressum</a>
@@ -13,7 +15,7 @@ export default function Impressum() {
         </div>
       </header>
 
-      <div className="max-w-4xl mx-auto p-8">
+      <main className="max-w-4xl mx-auto p-8">
         <h1 className="text-3xl font-bold mb-6">Impressum</h1>
         <p><strong>Tradeburg GmbH</strong></p>
         <p>Registered HQ: Krefeld, Germany</p>
@@ -42,7 +44,7 @@ export default function Impressum() {
           Beiträge Dritter sind als solche gekennzeichnet. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art
           der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors.
         </p>
-      </div>
+      </main>
 
       {/* Footer */}
       <footer className="bg-[#1755BF] text-white py-10 px-12 mt-12">
