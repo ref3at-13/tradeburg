@@ -1,4 +1,4 @@
-export default function Impressum() {
+export default function Privacy() {
   return (
     <div className="min-h-screen bg-white text-gray-800">
       {/* Header */}
@@ -17,34 +17,29 @@ export default function Impressum() {
       </header>
 
       <main className="max-w-4xl mx-auto p-8">
-        <h1 className="text-3xl font-bold mb-6">Impressum</h1>
-        <p><strong>Tradeburg GmbH</strong></p>
-        <p>Registered HQ: Krefeld, Germany</p>
-        <p>Office: Freiburg im Breisgau, Germany</p>
-        <p>Email: info@tradeburg.de</p>
+        <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
+        <p>We at <strong>Tradeburg GmbH</strong> take the protection of your personal data seriously and comply with the General Data Protection Regulation (GDPR).</p>
 
-        <h2 className="text-2xl font-semibold mt-6 mb-2">Vertreten durch:</h2>
-        <p>Geschäftsführer: [Name of Managing Director]</p>
+        <h2 className="text-2xl font-semibold mt-6 mb-2">1. Data Controller</h2>
+        <p>Tradeburg GmbH<br />Registered HQ: Krefeld, Germany<br />Email: info@tradeburg.de</p>
 
-        <h2 className="text-2xl font-semibold mt-6 mb-2">Registereintrag:</h2>
-        <p>Registergericht: Amtsgericht [City]</p>
-        <p>Registernummer: HRB [Number]</p>
+        <h2 className="text-2xl font-semibold mt-6 mb-2">2. Collection and Processing of Personal Data</h2>
+        <p>We collect personal data (such as name, email, phone number) only when you provide it voluntarily, e.g., via our contact form or email. This data is used exclusively for responding to your inquiries and business communication.</p>
 
-        <h2 className="text-2xl font-semibold mt-6 mb-2">Umsatzsteuer-ID:</h2>
-        <p>USt-IdNr.: DE [Number]</p>
+        <h2 className="text-2xl font-semibold mt-6 mb-2">3. Legal Basis</h2>
+        <p>The processing of your data is based on Art. 6 para. 1 lit. b GDPR (contract performance) and Art. 6 para. 1 lit. f GDPR (legitimate interest in responding to inquiries).</p>
 
-        <h2 className="text-2xl font-semibold mt-6 mb-2">Haftungsausschluss:</h2>
-        <p>
-          Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links.
-          Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
-        </p>
+        <h2 className="text-2xl font-semibold mt-6 mb-2">4. Data Sharing</h2>
+        <p>Your data will not be transferred to third parties unless required by law or necessary to fulfill a contract with you.</p>
 
-        <h2 className="text-2xl font-semibold mt-6 mb-2">Urheberrecht:</h2>
-        <p>
-          Alle Inhalte und Werke auf dieser Website unterliegen dem deutschen Urheberrecht.
-          Beiträge Dritter sind als solche gekennzeichnet. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art
-          der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors.
-        </p>
+        <h2 className="text-2xl font-semibold mt-6 mb-2">5. Storage Period</h2>
+        <p>We store your data only as long as necessary to fulfill the purposes outlined here or as required by legal retention obligations.</p>
+
+        <h2 className="text-2xl font-semibold mt-6 mb-2">6. Your Rights</h2>
+        <p>You have the right to access, rectify, delete, restrict processing, and request data portability under GDPR. You also have the right to lodge a complaint with a supervisory authority.</p>
+
+        <h2 className="text-2xl font-semibold mt-6 mb-2">7. Contact</h2>
+        <p>If you have any questions about this Privacy Policy or the processing of your personal data, please contact us at info@tradeburg.de.</p>
       </main>
 
       {/* Footer */}
