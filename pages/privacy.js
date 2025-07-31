@@ -3,7 +3,7 @@ export default function Privacy() {
     <div className="min-h-screen bg-white text-gray-800">
       {/* Header */}
       <header className="bg-white shadow-lg sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-8 py-4 flex justify-between items-center">
           <img src="/logo.png" alt="Tradeburg Logo" className="h-12" />
           <nav className="space-x-4 hidden md:block">
             <a href="/" className="hover:text-blue-600">Home</a>
@@ -40,7 +40,7 @@ export default function Privacy() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-[#1755BF] text-white py-10 px-6 mt-12">
+      <footer className="bg-[#1755BF] text-white py-10 px-8 mt-12">
         <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
             <img src="/Tradeburg Logo White Vertical.png" alt="Tradeburg Logo" className="h-20 mb-4 mx-auto md:mx-0" />
