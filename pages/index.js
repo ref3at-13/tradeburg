@@ -184,8 +184,8 @@ export default function Home() {
           <div>
             <h4 className="font-semibold mb-3 text-white">Contact</h4>
             <p className="text-sm text-gray-200">
-              Bötzinger Str. 46<br />
-              OfficePlus Building<br />
+              Germany: Bötzinger Str. 46<br />
+              (OfficePlus Building)<br />
               79111 Freiburg
             </p>
             <p className="mt-4 text-sm text-gray-200">Egypt: Maadi, Cairo</p>
