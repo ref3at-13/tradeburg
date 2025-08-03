@@ -83,7 +83,7 @@ export default function Privacy() {
           that can be used to contact or identify You. Personally identifiable information may include, but is not
           limited to:
         </p>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-outside pl-6 space-y-6">
           <li>Email address</li>
           <li>First name and last name</li>
           <li>Phone number</li>
