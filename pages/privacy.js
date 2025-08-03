@@ -123,7 +123,7 @@ export default function Privacy() {
           >
             TermsFeed website 
           </a>
-            article.
+            &nbsp;article.
         </p>
         <p>We use both Session and Persistent Cookies for the purposes set out below:</p>
         <ul className="list-disc list-outside pl-10 space-y-2">
