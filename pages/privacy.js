@@ -74,7 +74,7 @@ export default function Privacy() {
           <div>
             <h4 className="font-semibold mb-3 text-white">Legal</h4>
             <ul className="space-y-2 text-sm text-gray-200">
-              <li><a href="/impressum" className="hover:underline">Impressum</a></li>
+              <li><a href="/impressum" className="hover:underline">Imprint</a></li>
               <li><a href="/privacy" className="hover:underline">Privacy Policy</a></li>
             </ul>
           </div>
