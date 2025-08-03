@@ -110,23 +110,25 @@ export default function Privacy() {
         <h4 className="text-lg font-semibold mt-4">Tracking Technologies and Cookies</h4>
         <p>We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information.
           Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service.
+          The technologies We use may include:
         </p>
         <ul className="list-disc list-inside space-y-2">
           <li>
             <strong>Cookies or Browser Cookies.</strong> A cookie is a small file placed on Your Device. You can instruct
             Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies,
-            You may not be able to use some parts of our Service.
+            You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies.
           </li>
           <li>
             <strong>Web Beacons.</strong> Certain sections of our Service and our emails may contain small electronic files known as
             web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example,
-            to count users who have visited those pages or opened an email and for other related website statistics.
+            to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).
           </li>
         </ul>
         <p>
           Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on Your personal computer or mobile device when
-          You go offline, while Session Cookies are deleted as soon as You close Your web browser.
+          You go offline, while Session Cookies are deleted as soon as You close Your web browser. You can learn more about cookies on <a href="https://www.termsfeed.com/blog/cookies/#What_Are_Cookies" target="_blank">TermsFeed website</a> article.
         </p>
+        <p>We use both Session and Persistent Cookies for the purposes set out below:</p>
         <ul className="list-disc list-inside space-y-2">
           <li>
             <strong>Necessary / Essential Cookies</strong> (Session Cookies) — Administered by Us to provide You with services
