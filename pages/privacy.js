@@ -154,7 +154,6 @@ export default function Privacy() {
         <h3 className="text-xl font-semibold mt-8">Use of Your Personal Data</h3>
         <p>The Company may use Personal Data for the following purposes:</p>
         <ul className="list-disc list-inside space-y-2">
-          <ul>
             <li><p><strong>To provide and maintain our Service</strong>, including to monitor the usage of our Service.</p></li>
             <li><p><strong>To manage Your Account:</strong> to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.</p></li>
             <li><p><strong>For the performance of a contract:</strong> the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.</p></li>
@@ -163,7 +162,7 @@ export default function Privacy() {
             <li><p><strong>To manage Your requests:</strong> To attend and manage Your requests to Us.</p></li>
             <li><p><strong>For business transfers:</strong> We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.</p></li>
             <li><p><strong>For other purposes</strong>: We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.</p></li>
-          </ul>
+        </ul>
         </ul>
         <p>We may share Your personal information in the following situations:</p>
         <ul>
