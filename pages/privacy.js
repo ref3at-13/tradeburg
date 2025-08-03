@@ -5,7 +5,7 @@ export default function Privacy() {
       <header className="bg-white shadow-lg sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-12 py-6 flex justify-between items-center">
           <a href="/">
-            <img src="/logo.png" alt="Tradeburg Logo" className="h-10" />
+            <img src="/Tradeburg Logo.png" alt="Tradeburg Logo" className="h-10" />
           </a>
           <nav className="space-x-4 hidden md:block">
             <a href="/#about" className="hover:text-blue-600">About</a>
@@ -54,7 +54,7 @@ export default function Privacy() {
             or other securities entitled to vote for election of directors or other managing authority.
           </li>
           <li>
-            <strong>Company</strong> ("the Company", "We", "Us" or "Our" in this Agreement) refers to
+            <strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to
             Tradeburg GmbH, Nassauerring 265, 47803 Krefeld.
           </li>
           <li>
@@ -102,10 +102,11 @@ export default function Privacy() {
           <li>Usage Data</li>
         </ul>
         <h4 className="text-lg font-semibold mt-4">Usage Data</h4>
-        <p>
-          Usage Data is collected automatically when using the Service. It may include information such as Your Device's
-          IP address, browser type, pages visited, date and time of visit, time spent, and other diagnostic data.
-        </p>
+        <p>Usage Data is collected automatically when using the Service.</p>
+        <p>Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
+        <p>When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.</p>
+        <p>We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.</p>    
+            
         <h4 className="text-lg font-semibold mt-4">Tracking Technologies and Cookies</h4>
         <p>We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information.
           Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service.
@@ -220,7 +221,7 @@ export default function Privacy() {
       <footer className="bg-[#1755BF] text-white py-10 px-12 mt-12">
         <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8 text-center md:text-left">
           <div>
-            <img src="/Tradeburg Logo White Vertical.png" alt="Tradeburg Logo" className="h-16 mb-4 mx-auto md:mx-0" />
+            <img src="/Tradeburg Logo White.png" alt="Tradeburg Logo" className="h-16 mb-4 mx-auto md:mx-0" />
             <p className="text-sm text-gray-200">
               Bridging Europe & the Arab World<br />
               One Business Partnership at a Time
@@ -248,7 +249,7 @@ export default function Privacy() {
           <div>
             <h4 className="font-semibold mb-3 text-white">Legal</h4>
             <ul className="space-y-2 text-sm text-gray-200">
-              <li><a href="/impressum" className="hover:underline">Legal Notice</a></li>
+              <li><a href="/impressum" className="hover:underline">Imprint</a></li>
               <li><a href="/privacy" className="hover:underline">Privacy Policy</a></li>
             </ul>
           </div>
