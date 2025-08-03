@@ -83,7 +83,7 @@ export default function Privacy() {
           that can be used to contact or identify You. Personally identifiable information may include, but is not
           limited to:
         </p>
-        <ul className="list-disc list-outside pl-20 space-y-2">
+        <ul className="list-disc list-outside pl-10 space-y-2">
           <li>Email address</li>
           <li>First name and last name</li>
           <li>Phone number</li>
@@ -100,7 +100,7 @@ export default function Privacy() {
           Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service.
           The technologies We use may include:
         </p>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-outside pl-10 space-y-2">
           <li>
             <strong>Cookies or Browser Cookies.</strong> A cookie is a small file placed on Your Device. You can instruct
             Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies,
@@ -117,7 +117,7 @@ export default function Privacy() {
           You go offline, while Session Cookies are deleted as soon as You close Your web browser. You can learn more about cookies on <a href="https://www.termsfeed.com/blog/cookies/#What_Are_Cookies" target="_blank">TermsFeed website</a> article.
         </p>
         <p>We use both Session and Persistent Cookies for the purposes set out below:</p>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-outside pl-10 space-y-2">
           <li>
             <strong>Necessary / Essential Cookies</strong>
             <p>Type: Session Cookies</p>
@@ -141,7 +141,7 @@ export default function Privacy() {
 
         <h3 className="text-xl font-semibold mt-8">Use of Your Personal Data</h3>
         <p>The Company may use Personal Data for the following purposes:</p>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-outside pl-10 space-y-2">
             <li><p><strong>To provide and maintain our Service</strong>, including to monitor the usage of our Service.</p></li>
             <li><p><strong>To manage Your Account:</strong> to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.</p></li>
             <li><p><strong>For the performance of a contract:</strong> the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.</p></li>
@@ -153,7 +153,7 @@ export default function Privacy() {
         </ul>
         <p>We may share Your personal information in the following situations:</p>
 
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-outside pl-10 space-y-2">
             <li><strong>With Service Providers:</strong> We may share Your personal information with Service Providers to monitor and analyze the use of our Service,  to contact You.</li>
             <li><strong>For business transfers:</strong> We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.</li>
             <li><strong>With Affiliates:</strong> We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.</li>
