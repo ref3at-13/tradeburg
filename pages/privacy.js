@@ -163,9 +163,7 @@ export default function Privacy() {
             <li><p><strong>For business transfers:</strong> We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.</p></li>
             <li><p><strong>For other purposes</strong>: We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.</p></li>
         </ul>
-        </ul>
         <p>We may share Your personal information in the following situations:</p>
-        <ul>
 
 
         <h3 className="text-xl font-semibold mt-8">Sharing Your Personal Data</h3>
