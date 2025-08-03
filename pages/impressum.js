@@ -22,23 +22,23 @@ export default function Impressum() {
         <p>Address: Nassauerring 265, 47803 Krefeld, Germany</p>
         <p>Email: info@tradeburg.de</p>
 
-        <h2 className="text-2xl font-semibold mt-6 mb-2">Represented by:</h2>
+        <h2 className="text-1xl font-semibold mt-6 mb-2">Represented by:</h2>
         <p>Managing Director: Ashraf Attia</p>
 
-        <h2 className="text-2xl font-semibold mt-6 mb-2">Commercial Register Entry:</h2>
+        <h2 className="text-1xl font-semibold mt-6 mb-2">Commercial Register Entry:</h2>
         <p>Register Court: Amtsgericht Krefeld</p>
         <p>Register Number: HRB 19847</p>
 
-        <h2 className="text-2xl font-semibold mt-6 mb-2">VAT ID:</h2>
+        <h2 className="text-1xl font-semibold mt-6 mb-2">VAT ID:</h2>
         <p>VAT Identification Number: DE 306572402</p>
 
-        <h2 className="text-2xl font-semibold mt-6 mb-2">Disclaimer:</h2>
+        <h2 className="text-1xl font-semibold mt-6 mb-2">Disclaimer:</h2>
         <p>
           Despite careful content control, we assume no liability for the content of external links.
           The operators of the linked pages are solely responsible for their content.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-6 mb-2">Copyright:</h2>
+        <h2 className="text-1xl font-semibold mt-6 mb-2">Copyright:</h2>
         <p>
           All content and works on this website are subject to German copyright law.
           Third-party contributions are identified as such. Duplication, editing, distribution,
