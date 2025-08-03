@@ -117,17 +117,14 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="p-6 border rounded-lg shadow-sm bg-white">
             <img src="/Location.png" alt="Location Icon" className="h-14 w-14 mb-2" />
-            <h3 className="text-2xl font-semibold mb-2">Germany Headquarters</h3>
-            <p className="text-sm text-gray-600">
-              Bötzinger Str. 46<br />
-              OfficePlus Building<br />
-              79111 Freiburg
+            <h3 className="text-2xl font-semibold mb-2">Freiburg, Germany</h3>
+            <p>Our European location provides direct access to EU markets and enables seamless business operations across Europe.
             </p>
           </div>
           <div className="p-6 border rounded-lg shadow-sm bg-white">
             <img src="/Location.png" alt="Location Icon" className="h-14 w-14 mb-2" />
-            <h3 className="text-2xl font-semibold mb-2">Egypt Office</h3>
-            <p className="text-sm text-gray-600">Egypt: Maadi, Cairo</p>
+            <h3 className="text-2xl font-semibold mb-2">Cairo, Egypt</h3>
+            <p>Our presence in Egypt offers deep regional insights and established business networks throughout the Arab world.</p>
           </div>
         </div>
         <p className="mt-12 text-center text-lg">
