@@ -18,114 +18,199 @@ export default function Privacy() {
 
       <main className="max-w-4xl mx-auto p-8 space-y-6">
         <h1 className="text-3xl font-bold">Privacy Policy</h1>
-        <p className="text-sm text-gray-600">Last updated: August 03, 2025</p>
+        <p>Last updated: August 03, 2025</p>
         <p>
-          This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
+          This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information
+          when You use the Service and tells You about Your privacy rights and how the law protects You.
         </p>
         <p>
-          We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the{' '}
-          <a href="https://www.termsfeed.com/privacy-policy-generator/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+          We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection
+          and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the
+          help of the{' '}
+          <a
+            href="https://www.termsfeed.com/privacy-policy-generator/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline"
+          >
             Privacy Policy Generator
           </a>.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8">Interpretation and Definitions</h2>
+        <h2 className="text-2xl font-semibold">Interpretation and Definitions</h2>
         <h3 className="text-xl font-semibold mt-4">Interpretation</h3>
         <p>
-          The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+          The words of which the initial letter is capitalized have meanings defined under the following
+          conditions. The following definitions shall have the same meaning regardless of whether they appear
+          in singular or in plural.
         </p>
-
         <h3 className="text-xl font-semibold mt-4">Definitions</h3>
         <p>For the purposes of this Privacy Policy:</p>
         <ul className="list-disc list-inside space-y-2">
           <li><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</li>
-          <li><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares.</li>
-          <li><strong>Company</strong> ("the Company", "We", "Us" or "Our") refers to Tradeburg GmbH, Nassauerring 265, 47803 Krefeld, Germany.</li>
-          <li><strong>Cookies</strong> are small files placed on Your device by a website.</li>
-          <li><strong>Country</strong> refers to: Baden-Württemberg, Germany.</li>
+          <li>
+            <strong>Affiliate</strong> means an entity that controls, is controlled by or is under common
+            control with a party, where "control" means ownership of 50% or more of the shares, equity interest
+            or other securities entitled to vote for election of directors or other managing authority.
+          </li>
+          <li>
+            <strong>Company</strong> ("the Company", "We", "Us" or "Our" in this Agreement) refers to
+            Tradeburg GmbH, Nassauerring 265, 47803 Krefeld.
+          </li>
+          <li>
+            <strong>Cookies</strong> are small files that are placed on Your computer, mobile device or any other
+            device by a website, containing the details of Your browsing history on that website among its many uses.
+          </li>
+          <li><strong>Country</strong> refers to: Baden-Württemberg, Germany</li>
           <li><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</li>
           <li><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</li>
           <li><strong>Service</strong> refers to the Website.</li>
-          <li><strong>Service Provider</strong> means any natural or legal person who processes the data on behalf of the Company.</li>
-          <li><strong>Usage Data</strong> refers to data collected automatically, such as duration of a page visit.</li>
+          <li>
+            <strong>Service Provider</strong> means any natural or legal person who processes the data on behalf of
+            the Company. It refers to third-party companies or individuals employed by the Company to facilitate the
+            Service, to provide the Service on behalf of the Company, to perform services related to the Service or to
+            assist the Company in analyzing how the Service is used.
+          </li>
+          <li>
+            <strong>Usage Data</strong> refers to data collected automatically, either generated by the use of the
+            Service or from the Service infrastructure itself (for example, the duration of a page visit).
+          </li>
           <li>
             <strong>Website</strong> refers to Tradeburg.de, accessible from{' '}
             <a href="https://tradeburg.de/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
               https://tradeburg.de/
             </a>
           </li>
-          <li><strong>You</strong> means the individual accessing or using the Service, or the entity on behalf of which such individual is accessing or using the Service.</li>
+          <li>
+            <strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity
+            on behalf of which such individual is accessing or using the Service, as applicable.
+          </li>
         </ul>
 
         <h2 className="text-2xl font-semibold mt-8">Collecting and Using Your Personal Data</h2>
-
         <h3 className="text-xl font-semibold mt-4">Types of Data Collected</h3>
-
         <h4 className="text-lg font-semibold mt-2">Personal Data</h4>
-        <p>While using Our Service, We may ask You to provide Us with certain personally identifiable information such as:</p>
+        <p>
+          While using Our Service, We may ask You to provide Us with certain personally identifiable information
+          that can be used to contact or identify You. Personally identifiable information may include, but is not
+          limited to:
+        </p>
         <ul className="list-disc list-inside space-y-2">
           <li>Email address</li>
           <li>First name and last name</li>
           <li>Phone number</li>
           <li>Usage Data</li>
         </ul>
-
         <h4 className="text-lg font-semibold mt-4">Usage Data</h4>
-        <p>Usage Data is collected automatically when using the Service (e.g. IP address, browser type, pages visited). When You access the Service by mobile device, We may collect additional diagnostic data.</p>
-
+        <p>
+          Usage Data is collected automatically when using the Service. It may include information such as Your Device's
+          IP address, browser type, pages visited, date and time of visit, time spent, and other diagnostic data.
+        </p>
         <h4 className="text-lg font-semibold mt-4">Tracking Technologies and Cookies</h4>
-        <p>We use Cookies and similar tracking technologies to track activity on Our Service and store certain information.</p>
+        <p>We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information.
+          Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service.
+        </p>
         <ul className="list-disc list-inside space-y-2">
-          <li><strong>Cookies</strong>: small files placed on Your Device.</li>
-          <li><strong>Web Beacons</strong>: small electronic files used to count users who visit pages or open emails.</li>
+          <li>
+            <strong>Cookies or Browser Cookies.</strong> A cookie is a small file placed on Your Device. You can instruct
+            Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies,
+            You may not be able to use some parts of our Service.
+          </li>
+          <li>
+            <strong>Web Beacons.</strong> Certain sections of our Service and our emails may contain small electronic files known as
+            web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example,
+            to count users who have visited those pages or opened an email and for other related website statistics.
+          </li>
         </ul>
-        <p>Cookies can be "Persistent" or "Session" Cookies. Persistent remain after you go offline; Session Cookies are deleted when you close your browser.</p>
+        <p>
+          Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on Your personal computer or mobile device when
+          You go offline, while Session Cookies are deleted as soon as You close Your web browser.
+        </p>
+        <ul className="list-disc list-inside space-y-2">
+          <li>
+            <strong>Necessary / Essential Cookies</strong> (Session Cookies) — Administered by Us to provide You with services
+            and features of the Website, authenticate users, and prevent fraud.
+          </li>
+          <li>
+            <strong>Cookies Policy / Notice Acceptance Cookies</strong> (Persistent Cookies) — Administered by Us to identify if
+            users have accepted the use of cookies on the Website.
+          </li>
+          <li>
+            <strong>Functionality Cookies</strong> (Persistent Cookies) — Administered by Us to remember choices You make when You use
+            the Website, such as login details or language preference.
+          </li>
+        </ul>
 
-        <h4 className="text-lg font-semibold mt-4">Use of Your Personal Data</h4>
+        <h3 className="text-xl font-semibold mt-8">Use of Your Personal Data</h3>
         <ul className="list-disc list-inside space-y-2">
           <li><strong>To provide and maintain our Service</strong>, including monitoring usage.</li>
-          <li><strong>To manage Your Account:</strong> to manage Your registration and access.</li>
-          <li><strong>For contract performance:</strong> compliance with purchase or service contracts.</li>
-          <li><strong>To contact You:</strong> via email, phone, SMS or push notifications.</li>
-          <li><strong>To provide news and offers</strong> about goods and services.</li>
-          <li><strong>To manage requests</strong> you send to us.</li>
-          <li><strong>For business transfers:</strong> such as merger or acquisition.</li>
-          <li><strong>For other purposes</strong>: data analysis, usage trends, improving Service.</li>
+          <li><strong>To manage Your Account</strong>: handle registration and access to Service features.</li>
+          <li><strong>For contract performance</strong>: deliver products or services You purchased.</li>
+          <li><strong>To contact You</strong>: email, phone, SMS, or push notifications regarding Service updates.</li>
+          <li><strong>To provide news and offers</strong> about goods and services similar to those You purchased.
+          </li>
+          <li><strong>To manage requests</strong> You submit to Us.
+          </li>
+          <li><strong>For business transfers</strong>: mergers, acquisitions, or asset sales.
+          </li>
+          <li><strong>For other purposes</strong>: data analysis, usage trends, campaign effectiveness.
+          </li>
         </ul>
 
-        <h4 className="text-lg font-semibold mt-4">Disclosure of Your Personal Data</h4>
+        <h3 className="text-xl font-semibold mt-8">Sharing Your Personal Data</h3>
         <ul className="list-disc list-inside space-y-2">
-          <li><strong>Service Providers:</strong> to monitor and analyze use.</li>
-          <li><strong>Business transfers:</strong> merger, sale, financing negotiations.</li>
-          <li><strong>Affiliates:</strong> parent and subsidiary companies.</li>
-          <li><strong>Business partners:</strong> for offers and promotions.</li>
-          <li><strong>Other users:</strong> when you share in public areas.</li>
-          <li><strong>With Your consent</strong>: for any other purpose.</li>
+          <li><strong>Service Providers</strong>: To monitor and analyze Service usage.</li>
+          <li><strong>Business transfers</strong>: sale, merger, or financing negotiations.</li>
+          <li><strong>Affiliates</strong>: parent, subsidiaries, and joint ventures under common control.</li>
+          <li><strong>Business partners</strong>: for promotional offers and services.</li>
+          <li><strong>Other users</strong>: when You share in public areas.
+          </li>
+          <li><strong>With Your consent</strong>: for any other purposes You authorize.
+          </li>
         </ul>
 
-        <h4 className="text-lg font-semibold mt-4">Retention of Your Personal Data</h4>
-        <p>We retain Your data only as long as necessary to fulfill the purposes in this Privacy Policy or as required by law.</p>
+        <h3 className="text-xl font-semibold mt-8">Retention of Your Personal Data</h3>
+        <p>
+          We retain Your Personal Data only as long as necessary to fulfill the purposes outlined in this Privacy Policy
+          or as required by law.
+        </p>
 
-        <h4 className="text-lg font-semibold mt-4">Transfer of Your Personal Data</h4>
-        <p>Data may be processed at Our operating offices or by third parties. Transfers are protected by appropriate safeguards.</p>
+        <h3 className="text-xl font-semibold mt-8">Transfer of Your Personal Data</h3>
+        <p>
+          Your information may be processed at Our offices or by third parties in jurisdictions with different privacy laws.
+          We take measures to protect Your data during transfers.
+        </p>
 
-        <h4 className="text-lg font-semibold mt-4">Delete Your Personal Data</h4>
-        <p>You have the right to delete or request deletion of Your Personal Data. You may update, amend, or delete Your information via your Account or by contacting us.</p>
+        <h3 className="text-xl font-semibold mt-8">Deleting Your Personal Data</h3>
+        <p>
+          You have the right to request deletion of Your Personal Data. You can update or delete Your information via Your Account
+          or by contacting Us.
+        </p>
 
-        <h4 className="text-lg font-semibold mt-4">Disclosure in Legal and Safety Cases</h4>
-        <p>We may disclose data to comply with legal obligations, protect rights, prevent wrongdoing, or ensure user safety.</p>
+        <h3 className="text-xl font-semibold mt-8">Disclosure for Legal and Safety Purposes</h3>
+        <p>
+          We may disclose data to comply with legal obligations, protect rights, prevent wrongdoing, or ensure user safety.
+        </p>
 
-        <h4 className="text-lg font-semibold mt-4">Security of Your Personal Data</h4>
-        <p>We use commercially acceptable means to protect Your Personal Data but cannot guarantee absolute security.</p>
+        <h3 className="text-xl font-semibold mt-8">Security of Your Personal Data</h3>
+        <p>
+          While no method of transmission or storage is 100% secure, we use commercially acceptable means to protect Your data.
+        </p>
 
         <h2 className="text-2xl font-semibold mt-8">Children's Privacy</h2>
-        <p>Our Service does not address anyone under 13. We do not knowingly collect data from children under 13.</p>
+        <p>
+          Our Service does not address anyone under 13, and we do not knowingly collect data from minors under 13.
+        </p>
 
         <h2 className="text-2xl font-semibold mt-8">Links to Other Websites</h2>
-        <p>Our Service may contain links to third-party sites with their own privacy policies.</p>
+        <p>
+          Our Service may contain links to third-party sites with their own policies. We are not responsible for their content.
+        </p>
 
         <h2 className="text-2xl font-semibold mt-8">Changes to this Privacy Policy</h2>
-        <p>We may update this policy by posting the new version and updating the "Last updated" date.</p>
+        <p>
+          We may update this policy by posting a new version and updating the "Last updated" date.
+        </p>
 
         <h2 className="text-2xl font-semibold mt-8">Contact Us</h2>
         <p>If you have any questions, contact us at info@tradeburg.de.</p>
