@@ -175,10 +175,8 @@ export default function Privacy() {
         </ul>
 
         <h3 className="text-xl font-semibold mt-8">Retention of Your Personal Data</h3>
-        <p>
-          We retain Your Personal Data only as long as necessary to fulfill the purposes outlined in this Privacy Policy
-          or as required by law.
-        </p>
+          <p>The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.</p>
+          <p>The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.</p>
 
         <h3 className="text-xl font-semibold mt-8">Transfer of Your Personal Data</h3>
         <p>
