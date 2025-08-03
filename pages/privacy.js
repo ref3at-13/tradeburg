@@ -165,17 +165,13 @@ export default function Privacy() {
         </ul>
         <p>We may share Your personal information in the following situations:</p>
 
-
-        <h3 className="text-xl font-semibold mt-8">Sharing Your Personal Data</h3>
         <ul className="list-disc list-inside space-y-2">
-          <li><strong>Service Providers</strong>: To monitor and analyze Service usage.</li>
-          <li><strong>Business transfers</strong>: sale, merger, or financing negotiations.</li>
-          <li><strong>Affiliates</strong>: parent, subsidiaries, and joint ventures under common control.</li>
-          <li><strong>Business partners</strong>: for promotional offers and services.</li>
-          <li><strong>Other users</strong>: when You share in public areas.
-          </li>
-          <li><strong>With Your consent</strong>: for any other purposes You authorize.
-          </li>
+            <li><strong>With Service Providers:</strong> We may share Your personal information with Service Providers to monitor and analyze the use of our Service,  to contact You.</li>
+            <li><strong>For business transfers:</strong> We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.</li>
+            <li><strong>With Affiliates:</strong> We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.</li>
+            <li><strong>With business partners:</strong> We may share Your information with Our business partners to offer You certain products, services or promotions.</li>
+            <li><strong>With other users:</strong> when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.</li>
+            <li><strong>With Your consent</strong>: We may disclose Your personal information for any other purpose with Your consent.</li>
         </ul>
 
         <h3 className="text-xl font-semibold mt-8">Retention of Your Personal Data</h3>
