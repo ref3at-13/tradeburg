@@ -152,20 +152,22 @@ export default function Privacy() {
         <p>For more information about the cookies we use and your choices regarding cookies, please visit our Cookies Policy or the Cookies section of our Privacy Policy.</p>
 
         <h3 className="text-xl font-semibold mt-8">Use of Your Personal Data</h3>
+        <p>The Company may use Personal Data for the following purposes:</p>
         <ul className="list-disc list-inside space-y-2">
-          <li><strong>To provide and maintain our Service</strong>, including monitoring usage.</li>
-          <li><strong>To manage Your Account</strong>: handle registration and access to Service features.</li>
-          <li><strong>For contract performance</strong>: deliver products or services You purchased.</li>
-          <li><strong>To contact You</strong>: email, phone, SMS, or push notifications regarding Service updates.</li>
-          <li><strong>To provide news and offers</strong> about goods and services similar to those You purchased.
-          </li>
-          <li><strong>To manage requests</strong> You submit to Us.
-          </li>
-          <li><strong>For business transfers</strong>: mergers, acquisitions, or asset sales.
-          </li>
-          <li><strong>For other purposes</strong>: data analysis, usage trends, campaign effectiveness.
-          </li>
+          <ul>
+            <li><p><strong>To provide and maintain our Service</strong>, including to monitor the usage of our Service.</p></li>
+            <li><p><strong>To manage Your Account:</strong> to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.</p></li>
+            <li><p><strong>For the performance of a contract:</strong> the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.</p></li>
+            <li><p><strong>To contact You:</strong> To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.</p></li>
+            <li><p><strong>To provide You</strong> with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.</p></li>
+            <li><p><strong>To manage Your requests:</strong> To attend and manage Your requests to Us.</p></li>
+            <li><p><strong>For business transfers:</strong> We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.</p></li>
+            <li><p><strong>For other purposes</strong>: We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.</p></li>
+          </ul>
         </ul>
+        <p>We may share Your personal information in the following situations:</p>
+        <ul>
+
 
         <h3 className="text-xl font-semibold mt-8">Sharing Your Personal Data</h3>
         <ul className="list-disc list-inside space-y-2">
