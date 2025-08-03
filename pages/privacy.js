@@ -189,10 +189,20 @@ export default function Privacy() {
           <p>You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any personal information that You have provided to Us.</p>
           <p>Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so.</p>
 
-        <h3 className="text-xl font-semibold mt-8">Disclosure for Legal and Safety Purposes</h3>
-        <p>
-          We may disclose data to comply with legal obligations, protect rights, prevent wrongdoing, or ensure user safety.
-        </p>
+        <h3 className="text-xl font-semibold mt-8">Disclosure of Your Personal Data</h3>
+          <h4>Business Transactions</h4>
+            <p>If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.</p>
+          <h4>Law enforcement</h4>
+            <p>Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).</p>
+          <h4>Other legal requirements</h4>
+            <p>The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:</p>
+          <ul>
+            <li>Comply with a legal obligation</li>
+            <li>Protect and defend the rights or property of the Company</li>
+            <li>Prevent or investigate possible wrongdoing in connection with the Service</li>
+            <li>Protect the personal safety of Users of the Service or the public</li>
+            <li>Protect against legal liability</li>
+          </ul>
 
         <h3 className="text-xl font-semibold mt-8">Security of Your Personal Data</h3>
         <p>
