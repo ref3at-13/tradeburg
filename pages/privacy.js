@@ -5,7 +5,7 @@ export default function Privacy() {
       <header className="bg-white shadow-lg sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-12 py-6 flex justify-between items-center">
           <a href="/">
-            <img src="/Tradeburg Logo.png" alt="Tradeburg Logo" className="h-10" />
+            <img src="/logo.png" alt="Tradeburg Logo" className="h-10" />
           </a>
           <nav className="space-x-4 hidden md:block">
             <a href="/#about" className="hover:text-blue-600">About</a>
@@ -135,7 +135,7 @@ export default function Privacy() {
       <footer className="bg-[#1755BF] text-white py-10 px-12 mt-12">
         <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8 text-center md:text-left">
           <div>
-            <img src="/Tradeburg Logo White.png" alt="Tradeburg Logo" className="h-16 mb-4 mx-auto md:mx-0" />
+            <img src="/Tradeburg Logo White Vertical.png" alt="Tradeburg Logo" className="h-16 mb-4 mx-auto md:mx-0" />
             <p className="text-sm text-gray-200">
               Bridging Europe & the Arab World<br />
               One Business Partnership at a Time
@@ -163,7 +163,7 @@ export default function Privacy() {
           <div>
             <h4 className="font-semibold mb-3 text-white">Legal</h4>
             <ul className="space-y-2 text-sm text-gray-200">
-              <li><a href="/impressum" className="hover:underline">Imprint</a></li>
+              <li><a href="/impressum" className="hover:underline">Legal Notice</a></li>
               <li><a href="/privacy" className="hover:underline">Privacy Policy</a></li>
             </ul>
           </div>
