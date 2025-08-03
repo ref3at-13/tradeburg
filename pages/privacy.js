@@ -46,7 +46,7 @@ export default function Privacy() {
         </p>
         <h3 className="text-xl font-semibold mt-4">Definitions</h3>
         <p>For the purposes of this Privacy Policy:</p>
-        <ul className="list-disc list-outside pl-6 space-y-2">
+        <ul className="list-disc list-outside pl-10 space-y-2">
           <li><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</li>
           <li><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common
             control with a party, where "control" means ownership of 50% or more of the shares, equity interest
@@ -83,7 +83,7 @@ export default function Privacy() {
           that can be used to contact or identify You. Personally identifiable information may include, but is not
           limited to:
         </p>
-        <ul className="list-disc list-outside pl-6 space-y-6">
+        <ul className="list-disc list-outside pl-20 space-y-2">
           <li>Email address</li>
           <li>First name and last name</li>
           <li>Phone number</li>
