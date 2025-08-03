@@ -38,8 +38,8 @@ export default function Home() {
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white text-center py-20">
         <div className="max-w-7xl mx-auto px-12">
           <h1 className="text-4xl md:text-6xl font-bold text-left md:text-center">
-            Your Business Partner<br />
-            across Europe and the Arab World
+            Bridging Europe & the Arab World<br />
+            One Business Partnership at a Time
           </h1>
           <p className="text-xl mt-4 md:text-center text-left">
             Connecting markets, cultures, and opportunities across continents<br />
