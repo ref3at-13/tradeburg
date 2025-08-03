@@ -11,14 +11,26 @@ export default function Home() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Submit logic here
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+      if (!res.ok) throw new Error('Network response was not ok');
+      // Optionally add success feedback here
+    } catch (error) {
+      console.error('Error sending contact form:', error);
+      // Optionally add error feedback here
+    }
     setFormData({ name: "", email: "", phone: "", message: "" });
   };
 
   return (
     <div className="min-h-screen bg-white text-gray-800">
+
       {/* Header */}
       <header className="bg-white shadow-lg sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-12 py-6 flex justify-between items-center">
@@ -118,8 +130,7 @@ export default function Home() {
           <div className="p-6 border rounded-lg shadow-sm bg-white">
             <img src="/Location.png" alt="Location Icon" className="h-14 w-14 mb-2" />
             <h3 className="text-2xl font-semibold mb-2">Freiburg, Germany</h3>
-            <p>Our European location provides direct access to EU markets and enables seamless business operations across Europe.
-            </p>
+            <p>Our European location provides direct access to EU markets and enables seamless business operations across Europe.</p>
           </div>
           <div className="p-6 border rounded-lg shadow-sm bg-white">
             <img src="/Location.png" alt="Location Icon" className="h-14 w-14 mb-2" />
@@ -127,9 +138,7 @@ export default function Home() {
             <p>Our presence in Egypt offers deep regional insights and established business networks throughout the Arab world.</p>
           </div>
         </div>
-        <p className="mt-12 text-center text-lg">
-          Working on the ground in both regions allows us to build trust, understand local customs, and respond quickly to our clients' needs while fostering genuine cross-cultural business relationships.
-        </p>
+        <p className="mt-12 text-center text-lg">Working on the ground in both regions allows us to build trust, understand local customs, and respond quickly to our clients' needs while fostering genuine cross-cultural business relationships.</p>
       </section>
 
       {/* Contact Section */}
@@ -164,10 +173,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8 text-center md:text-left">
           <div>
             <img src="/Tradeburg Logo White.png" alt="Tradeburg Logo" className="h-16 mb-4 mx-auto md:mx-0" />
-            <p className="text-sm text-gray-200">
-              Bridging Europe & the Arab World<br />
-              One Business Partnership at a Time
-            </p>
+            <p className="text-sm text-gray-200">Bridging Europe & the Arab World<br />One Business Partnership at a Time</p>
           </div>
           <div>
             <h4 className="font-semibold mb-3 text-white">Quick Links</h4>
@@ -180,11 +186,7 @@ export default function Home() {
           </div>
           <div>
             <h4 className="font-semibold mb-3 text-white">Contact</h4>
-            <p className="text-sm text-gray-200">
-              Germany: Bötzinger Str. 46<br />
-              (OfficePlus Building)<br />
-              79111 Freiburg
-            </p>
+            <p className="text-sm text-gray-200">Germany: Bötzinger Str. 46<br />(OfficePlus Building)<br />79111 Freiburg</p>
             <p className="mt-4 text-sm text-gray-200">Egypt: Maadi, Cairo</p>
             <p className="mt-4 text-sm text-gray-200">Email: info@tradeburg.de</p>
           </div>
@@ -196,9 +198,7 @@ export default function Home() {
             </ul>
           </div>
         </div>
-        <div className="text-center text-sm text-white mt-8">
-          © 2025 Tradeburg. All rights reserved.
-        </div>
+        <div className="text-center text-sm text-white mt-8">© 2025 Tradeburg. All rights reserved.</div>
       </footer>
     </div>
   );
