@@ -131,18 +131,25 @@ export default function Privacy() {
         <p>We use both Session and Persistent Cookies for the purposes set out below:</p>
         <ul className="list-disc list-inside space-y-2">
           <li>
-            <strong>Necessary / Essential Cookies</strong> (Session Cookies) — Administered by Us to provide You with services
-            and features of the Website, authenticate users, and prevent fraud.
+            <strong>Necessary / Essential Cookies</strong>
+            <p>Type: Session Cookies</p>
+            <p>Administered by: Us</p>
+            <p>Purpose: These Cookies are essential to provide You with services available through the Website and to enable You to use some of its features. They help to authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that You have asked for cannot be provided, and We only use these Cookies to provide You with those services.</p>
           </li>
           <li>
-            <strong>Cookies Policy / Notice Acceptance Cookies</strong> (Persistent Cookies) — Administered by Us to identify if
-            users have accepted the use of cookies on the Website.
-          </li>
+            <strong>Cookies Policy / Notice Acceptance Cookies</strong> 
+            <p>Type: Persistent Cookies</p>
+            <p>Administered by: Us</p>
+            <p>Purpose: These Cookies identify if users have accepted the use of cookies on the Website.</p>
+            </li>
           <li>
-            <strong>Functionality Cookies</strong> (Persistent Cookies) — Administered by Us to remember choices You make when You use
-            the Website, such as login details or language preference.
+            <strong>Functionality Cookies</strong> 
+            <p>Type: Persistent Cookies</p>
+            <p>Administered by: Us</p>
+            <p>Purpose: These Cookies allow us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website.</p>
           </li>
         </ul>
+        <p>For more information about the cookies we use and your choices regarding cookies, please visit our Cookies Policy or the Cookies section of our Privacy Policy.</p>
 
         <h3 className="text-xl font-semibold mt-8">Use of Your Personal Data</h3>
         <ul className="list-disc list-inside space-y-2">
