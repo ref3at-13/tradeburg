@@ -121,7 +121,7 @@ export default function Privacy() {
             rel="noopener noreferrer"
             className="text-blue-600 hover:underline"
           >
-            TermsFeed website
+            TermsFeed website 
           </a>
             article.
         </p>
