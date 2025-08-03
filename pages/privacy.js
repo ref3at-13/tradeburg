@@ -178,13 +178,13 @@ export default function Privacy() {
           <p>Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so.</p>
 
         <h3 className="text-xl font-semibold mt-8">Disclosure of Your Personal Data</h3>
-          <h4>Business Transactions</h4>
+          <h4><strong>Business Transactions</strong></h4>
             <p>If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.</p>
-          <h4>Law enforcement</h4>
+          <h4><strong>Law enforcement</strong></h4>
             <p>Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).</p>
-          <h4>Other legal requirements</h4>
+          <h4><strong>Other legal requirements</strong></h4>
             <p>The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:</p>
-          <ul>
+          <ul className="list-disc list-outside pl-10 space-y-2">
             <li>Comply with a legal obligation</li>
             <li>Protect and defend the rights or property of the Company</li>
             <li>Prevent or investigate possible wrongdoing in connection with the Service</li>
