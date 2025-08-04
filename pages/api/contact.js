@@ -22,9 +22,9 @@ export default async function handler(req, res) {
 
   // 2) Prepare mail options
   const mailOptions = {
-    from: `"Tradeburg Site" <${process.env.SMTP_USER}>`,
+    from: `"Tradeburg Contact Form" <${process.env.SMTP_USER}>`,
     to: 'info@tradeburg.de',
-    subject: `🔔 New contact from ${name}`,
+    subject: `New contact from ${name}`,
     text: [
       `Name: ${name}`,
       `Email: ${email}`,
