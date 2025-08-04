@@ -169,8 +169,8 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#1755BF] text-white py-10 px-12">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8 text-center md:text-left">
+      <footer className="bg-[#1755BF] text-white py-10">
+        <div className="max-w-7xl mx-auto px-12 grid md:grid-cols-4 gap-8 text-center md:text-left">
           <div>
             <img src="/Tradeburg Logo White.png" alt="Tradeburg Logo" className="h-16 mb-4 mx-auto md:mx-0" />
             <p className="text-sm text-gray-200">Bridging Europe & the Arab World<br />One Business Partnership at a Time</p>
