@@ -48,31 +48,24 @@ export default function Impressum() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-[#1755BF] text-white py-10 px-12">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8 text-center md:text-left">
+      <footer className="bg-[#1755BF] text-white py-10">
+        <div className="max-w-7xl mx-auto px-12 grid md:grid-cols-4 gap-8 text-center md:text-left">
           <div>
             <img src="/Tradeburg Logo White.png" alt="Tradeburg Logo" className="h-16 mb-4 mx-auto md:mx-0" />
-            <p className="text-sm text-gray-200">
-              Bridging Europe & the Arab World<br />
-              One Business Partnership at a Time
-            </p>
+            <p className="text-sm text-gray-200">Bridging Europe & the Arab World<br />One Business Partnership at a Time</p>
           </div>
           <div>
             <h4 className="font-semibold mb-3 text-white">Quick Links</h4>
             <ul className="space-y-2 text-sm text-gray-200">
-              <li><a href="/#about" className="hover:underline">About</a></li>
-              <li><a href="/#services" className="hover:underline">Services</a></li>
-              <li><a href="/#locations" className="hover:underline">Locations</a></li>
-              <li><a href="/#contact" className="hover:underline">Contact</a></li>
+              <li><a href="#about" className="hover:underline">About</a></li>
+              <li><a href="#services" className="hover:underline">Services</a></li>
+              <li><a href="#locations" className="hover:underline">Locations</a></li>
+              <li><a href="#contact" className="hover:underline">Contact</a></li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold mb-3 text-white">Contact</h4>
-            <p className="text-sm text-gray-200">
-              Germany: Bötzinger Str. 46<br />
-              (OfficePlus Building)<br />
-              79111 Freiburg
-            </p>
+            <p className="text-sm text-gray-200">Germany: Bötzinger Str. 46<br />(OfficePlus Building)<br />79111 Freiburg</p>
             <p className="mt-4 text-sm text-gray-200">Egypt: Maadi, Cairo</p>
             <p className="mt-4 text-sm text-gray-200">Email: info@tradeburg.de</p>
           </div>
@@ -84,9 +77,7 @@ export default function Impressum() {
             </ul>
           </div>
         </div>
-        <div className="text-center text-sm text-white mt-8">
-          © 2025 Tradeburg. All rights reserved.
-        </div>
+        <div className="text-center text-sm text-white mt-8">© 2025 Tradeburg. All rights reserved.</div>
       </footer>
     </div>
   );
